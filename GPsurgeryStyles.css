@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header{
+    background-color: #2a69b8;
+    display: flex;
+    height: 62px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -8px;
+    margin-left: -8px;
+
+}
+
+.header-left-section{
+    display: flex;
+    justify-content: space-between;
+}
