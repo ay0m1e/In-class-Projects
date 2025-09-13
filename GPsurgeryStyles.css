@@ -2,6 +2,9 @@ body{
     background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: -10px;
 
 }
 
@@ -9,14 +12,41 @@ header{
     background-color: #2a69b8;
     display: flex;
     height: 62px;
+    width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: -8px;
-    margin-left: -8px;
+    position: fixed;
+    top: 0;
 
 }
 
 .header-left-section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+.header-contact{
+    padding-left: 10px;
+}
+
+main{
+    margin-top: 62px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.upper-header, .lower-header{
+    display: flex;
+    justify-content: space-between,;p;;
+    width: 100%;
+}
+.name{
+    padding-right: 40px;
+}
+
+.menu{
+    display: flex;
+    
 }
