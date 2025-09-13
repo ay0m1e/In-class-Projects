@@ -6,28 +6,33 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
-			<header>
-				<div class="header-left-section">
-					<div class="header-contact">
-						<i class="fa fa-phone" style="color: white;"></i>
-						<a href="tel:02085920606">Tel: 02085920606</a>
-					</div>
-					<div class="header-contact">
-						<i class="fa fa-moon-o" style="color: white;"></i>
-						<a href="">Out of hours: 111</a>
-					</div>
-					<div class="header-contact">
-						<i class="fa fa-laptop" style="color: white;"></i>
-						<a href="">Log in to Patient Access</a>
-					</div>
+		<header>
+			<div class="header-main">
+				<div class="header-main-left">
+						<a href="tel:02085920606">
+							<i class="fa fa-phone" style="color: white;"></i>
+							Tel: 02085920606
+						</a>
+						
+						<a href="https://111.nhs.uk/">
+							<i class="fa fa-moon-o" style="color: white;"></i>
+							Out of hours: 111
+						</a>
+						
+						<a href="https://account.patientaccess.com/Account/Login"> 
+							<i class="fa fa-laptop" style="color: white;"></i>
+							Log in to Patient Access
+						</a>
 				</div>
-				<div>
-					<input type="text" placeholder="Search">
-					<button>
+				<div class="header-main-right">
+					<input class="search-box" type="text" placeholder="Search ...">
+					<button class="search-button">
+						<img class="search-icon" src="icons/search-icon.svg">
 						<div>Search</div>
 					</button>
 				</div>
-			</header>
+			</div>
+		</header>
 
 			<main>
 				<div class="upper-header">
@@ -59,17 +64,17 @@
 				</div>
 
 				<div class="lower-header">
-					<p>
+					<p class="lower-header-left">
 						Request GP appointments and advice online
 					</p>
 
-					<button>
+					<button class="eConsult-button">
 						eConsult
 					</button>
-					<p>
+					<p class="lower-header-right">
 						Order your repeat prescriptions online
 					</p>
-					<button>
+					<button class="Pat-Access-button">
 						Patient Access
 					</button>
 				</div>

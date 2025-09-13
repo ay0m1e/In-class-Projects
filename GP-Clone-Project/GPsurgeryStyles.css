@@ -1,0 +1,118 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: -10px;
+
+}
+
+header{
+    background-color: #005eb8;
+    display: flex;
+    height: 62px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+}
+
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    width: 1320px;
+    height: 42px;
+    align-items: center;
+}
+
+.header-contact{
+    padding-left: 10px;
+}
+
+main{
+    margin-top: 62px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.upper-header, .lower-header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 1320px;
+}
+.name{
+    padding-right: 40px;
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.lower-header-left{
+    width: 250px;
+    text-align: right;
+}
+
+.eConsult-button{
+    margin-left: 20px;
+}
+
+.header-main-left{
+    display: flex;
+
+}
+.search-icon{
+    height: 20px;
+}
+
+a:link{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+a:visited{
+    color: white;
+}
+
+.search-box{
+    width: 200px;
+    height: 19px;
+    padding: 9.6px 16px;
+    border-radius: 4px 0px 0px 4px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    font-size: 1rem;
+}
+
+.search-button{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 16px;
+    width: 95px;
+    height: 110%;
+    padding: 9.6px 16px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    background-color: #0074b3;
+    border-radius: 0px 4px 4px 0px;
+    
+}
+
+.header-main-right{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    margin-right: 50px;
+}
