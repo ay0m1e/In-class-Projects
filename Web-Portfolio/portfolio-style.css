@@ -1,0 +1,138 @@
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/portfolio-background.jpg");
+    background-size: cover;
+    background-repeat:space;
+    background-position: center;
+    background-attachment: fixed;
+    height: 2000px;
+}
+
+.intro-info{
+    width: 80%;
+    max-width: 900px;
+}
+
+main{
+    width: 80%;
+    max-width: 900px;
+}
+
+h1, h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Inter';
+    font-size: 18px;
+    color: rgb(63, 62, 62);
+    font-weight: 500;
+    text-align: center;
+}
+
+.center-tags{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2px;
+}
+
+.center-tags div{
+    display: inline;
+    width: 90px;
+    height: 30px;
+    background-color: rgba(179, 180, 180, 0.26);
+    border-width: 2px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+.center-tags img{
+    margin-top: 100px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+
+.education-info img{
+    width: 100px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.education-info div{
+    width: 300px;
+}
+
+.education-info a{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+}
+
+.education-info a:link{
+    text-decoration: none;
+    color: rgb(63, 62, 62);
+
+}
+
+.education-info a:visited{
+    color: rgb(63, 62, 62);
+    text-decoration: none;
+}
+
+.education-info p{
+    width: 100%;
+    text-align: left;
+}
+
+.skills-section-header h2{
+    margin-bottom: 0;
+}
+.skills-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;display: flex;
+    flex-direction: column;
+    width: px;
+    
+}
+.section-header{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    gap: 10px;
+}
+
+.marker{
+    display: inline;
+    background-color: rgb(64, 129, 250);
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.skills{
+    display: inline;
+    color: rgb(4, 50, 136);
+    margin-top: 7px;
+    background-color: rgb(210, 225, 252);
+    padding-left: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 60px;
+    height: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(64, 129, 250);
+}
