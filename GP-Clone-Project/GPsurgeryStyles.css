@@ -2,10 +2,12 @@ body{
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 62px;
     align-items: center;
-    padding-top: -10px;
-    
+    padding: 0px;
+    margin: 0px;
+    height: 2000px;
 
 }
 
@@ -16,8 +18,9 @@ header{
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    position: fixed;
+    position: relative;
     top: 0;
+
 
 }
 
@@ -28,6 +31,7 @@ header{
     width: 1320px;
     height: 42px;
     align-items: center;
+
 }
 
 .header-contact{
@@ -39,7 +43,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 62px;
     width: 100%;
 
 }
@@ -54,12 +57,15 @@ main{
 }
 
 .upper-top-body{
+    background-color: white;
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: sticky;
+    top: 0;
     width: 100%;
     max-width: 1320px;
     height: 81.59px;
+    z-index: 200;
 
 }
 .lower-top-body{
