@@ -25,6 +25,11 @@ h1, h2{
     font-family: 'Nunito', sans-serif;
     font-size: 70px;
     text-align: center;
+    margin-bottom: 0;
+}
+
+h2{
+    margin-top: 200px;
 }
 
 p{
@@ -59,8 +64,12 @@ p{
 
 .center-tags img{
     margin-top: 100px;
-    width: 150px;
-    border-radius: 75px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+    
+    border-radius: px;
 }
 
 
@@ -120,7 +129,7 @@ p{
     font-family: 'Nunito';
 }
 
-.marker{
+.marker, .marker1, .marker2{
     display: inline;
     background-color: rgb(64, 129, 250);
     width: 10px;
@@ -128,7 +137,7 @@ p{
     border-radius: 5px;
 }
 
-.skills{
+.skills, .skills1, .skills2{
     display: inline;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(4, 50, 136);
@@ -137,7 +146,7 @@ p{
     padding-left: 15px;
     padding-top: 6px;
     padding-right: 15px;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     width: fit-content;
     height: 15px;
     border-radius: 10px;
@@ -158,4 +167,25 @@ p{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+}
+
+.marker1{
+    background-color: rgb(14, 173, 173);
+}
+
+.skills1{
+    color: rgb(8, 107, 107);
+    border-color: rgba(8, 107, 107, 0.397);
+    background-color: rgba(192, 247, 247, 0.678);
+}
+
+
+.marker2{
+    background-color: blueviolet;
+}
+
+.skills2{
+    color: rgb(133, 43, 216);
+    border-color: rgba(137, 43, 226, 0.438);
+    background-color: rgba(223, 194, 250, 0.616);
 }
