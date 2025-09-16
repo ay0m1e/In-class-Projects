@@ -123,16 +123,26 @@ p{
 
 .skills{
     display: inline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(4, 50, 136);
     margin-top: 7px;
     background-color: rgb(210, 225, 252);
     padding-left: 15px;
     padding-top: 6px;
+    padding-right: 15px;
     padding-bottom: 6px;
-    width: 60px;
-    height: 20px;
+    width: fit-content;
+    height: 15px;
     border-radius: 10px;
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(64, 129, 250);
+    border-color: rgba(64, 129, 250, 0.521);
+    font-size: 15px;
+}
+
+.skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 10px;
+    width: 180px;
 }
