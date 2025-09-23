@@ -143,6 +143,9 @@ p{
     width: 80%;
 }
 
+.education-info h2{
+    margin-top: 50px;
+}
 .education-info a:link{
     text-decoration: none;
     color: rgb(63, 62, 62);
@@ -161,10 +164,15 @@ p{
 }
 
 .education-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.388);
     border-radius: 100px;
     padding-left: 30px;
-
+    padding-top: 1px;
+    margin-top: 200px;
 }
 
 .skills-section-header h2{
@@ -297,4 +305,22 @@ header{
     border-width: 2px;
     background-color: black;
     color: white;
+}
+
+.floating-tags{
+    animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating{
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-20px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
 }
