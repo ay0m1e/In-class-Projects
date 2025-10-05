@@ -167,6 +167,7 @@ p{
 
 .education-info{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -175,6 +176,7 @@ p{
     padding-left: 30px;
     padding-top: 1px;
     margin-top: 200px;
+    width: fit-content;
 }
 
 .skills-section-header h2{
@@ -238,6 +240,8 @@ p{
 
 .skills-section-container{
     display: flex;
+    flex-wrap: wrap;
+    gap:20px;
     width: 100%;
     justify-content: space-evenly;
 }
